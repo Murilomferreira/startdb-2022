@@ -26,6 +26,7 @@ class Forca {
             this.palavra = this.geraPalavraDoJogo();
         } else {
             this.vidas--;
+            this.adicionaChuteCorreto(letra)
         }
     }
 
