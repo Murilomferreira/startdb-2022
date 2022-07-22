@@ -59,7 +59,7 @@ class Forca {
 
     // Possiveis valores: "perdeu", "aguardando chute" ou "ganhou"
     buscarEstado() {
-        const ganhou = palavra.join('') === this.this.palavraSecreta
+        const ganhou = this.palavra.join('') === this.palavraSecreta
 
         if (ganhou) {
             return 'ganhou';
